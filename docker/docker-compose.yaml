@@ -1,0 +1,6 @@
+services:
+  chrome:
+    build: .
+    volumes:
+      - ..:/code
+    command: sleep infinity
